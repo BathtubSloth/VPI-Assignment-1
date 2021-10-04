@@ -4400,7 +4400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &776810364
 Transform:
   m_ObjectHideFlags: 0
@@ -6876,6 +6876,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1580065285}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1203554690 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2594692261608116024, guid: 16f5eeb51a6183b4d80edf5f32ea2ee9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1586111325}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1204934242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6805288597984958412, guid: a9f3556d6f295854f882b60753b58f18,
@@ -8992,6 +8998,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1784615463}
     m_Modifications:
+    - target: {fileID: 1920082730644117121, guid: 16f5eeb51a6183b4d80edf5f32ea2ee9,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"EnemySpeed","value":{"$content":-1.0,"$type":"System.Single"},"$version":"A"},{"name":"SineWaveFrequency","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"SpriteObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920082730644117121, guid: 16f5eeb51a6183b4d80edf5f32ea2ee9,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1203554690}
     - target: {fileID: 2594692261772027986, guid: 16f5eeb51a6183b4d80edf5f32ea2ee9,
         type: 3}
       propertyPath: m_RootOrder
@@ -10245,7 +10261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1784615463
 Transform:
   m_ObjectHideFlags: 0
