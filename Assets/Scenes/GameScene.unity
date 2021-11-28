@@ -941,6 +941,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 606594862}
     m_Modifications:
+    - target: {fileID: 1829029514885779035, guid: 40f3bda34dcf4994e83dc2cfa16368bf,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"disabledTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 6714462314727608422, guid: 40f3bda34dcf4994e83dc2cfa16368bf,
         type: 3}
       propertyPath: m_Enabled
