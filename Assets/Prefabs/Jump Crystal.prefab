@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7342678254871581633}
   - component: {fileID: 6714462314727608422}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9132323985803044033}
   - component: {fileID: 4134346086425295061}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Jump Crystal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
