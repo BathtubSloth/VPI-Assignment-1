@@ -24,13 +24,16 @@ public class ScoreToCSV : MonoBehaviour
     [SerializeField]
     private TMP_Text timeText;
 
+    [SerializeField]
+    private TMP_Text deathText;
+
 private void disableDataEntry()
 {
     saveScoreButton.transform.parent.gameObject.SetActive(false);
 }
 public void savePlayerData()
 {
-    //string header = "Name,Group,Time";
+    string header = "Name,Group,Time,Deaths" + '\n';
     string data = ToCSV();
 
 
@@ -47,9 +50,21 @@ public void savePlayerData()
 
     var filePath = Path.Combine(folder, "export.csv");
 
-      using(var writer = new StreamWriter(filePath, true))
+    if(File.Exists(filePath))
     {
+
+        using(var writer = new StreamWriter(filePath, true))
+        {
         writer.Write(data);
+        }
+    }
+    
+    else
+    {
+        using(var writer = new StreamWriter(filePath, true))
+        {
+            writer.Write(header + data);
+        }
     }
 
     Debug.Log($"CSV file written to \"{filePath}\"");
@@ -58,7 +73,7 @@ public void savePlayerData()
 }
     private string ToCSV()
 {
-    var sb = new StringBuilder(nameTextInput.text + ',' + controllerTextInput.captionText.text + ',' + timeText.text + '\n');
+    var sb = new StringBuilder(nameTextInput.text + ',' + controllerTextInput.captionText.text + ',' + timeText.text +  ',' + deathText.text + '\n');
 
     return sb.ToString();
 }
