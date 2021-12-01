@@ -26622,7 +26622,12 @@ PrefabInstance:
     - target: {fileID: 6388870616153676058, guid: de22052c5863732478817812ddbc6f19,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinAmount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"},{"name":"dashSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"dashLength","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canDash","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"facingLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"procAnim","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinAmount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"},{"name":"dashSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"dashLength","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canDash","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"facingLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"procAnim","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"dustParticles","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6388870616153676058, guid: de22052c5863732478817812ddbc6f19,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6388870616153676071, guid: de22052c5863732478817812ddbc6f19,
         type: 3}
