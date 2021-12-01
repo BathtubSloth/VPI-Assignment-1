@@ -133,9 +133,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinAmount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"},{"name":"dashSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"dashLength","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canDash","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"facingLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinAmount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"},{"name":"dashSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"dashLength","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canDash","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"facingLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"dustParticle","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6388870615903065777}
+    - {fileID: 0}
 --- !u!114 &6388870616153676057
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -47,9 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"rotationSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"length","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"spriteRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 3763440690288578715}
+    _json: '{"declarations":{"collection":{"$content":[{"name":"rotationSpeed","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!114 &5103553331200990133
 MonoBehaviour:
   m_ObjectHideFlags: 0
