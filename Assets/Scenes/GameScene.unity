@@ -8980,7 +8980,7 @@ GameObject:
   - component: {fileID: 744180382}
   - component: {fileID: 744180381}
   m_Layer: 5
-  m_Name: CoinUI
+  m_Name: TimerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17409,6 +17409,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426884596}
   m_CullTransparentMesh: 0
+--- !u!1 &1427310423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6388870615903065791, guid: de22052c5863732478817812ddbc6f19,
+    type: 3}
+  m_PrefabInstance: {fileID: 6388870616331669496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1427310426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427310423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d369b846ecb17f94481bfede179cdfb4, type: 2}
+--- !u!114 &1427310427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427310423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1428489593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22550,7 +22587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -88, y: -56}
+  m_AnchoredPosition: {x: -153, y: -56}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1824805649
@@ -22573,7 +22610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 59:59.99
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 83a058e590493ed4f97b42a945cdedc2, type: 2}
@@ -22582,8 +22619,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278234367
-  m_fontColor: {r: 1, g: 0.6725613, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -26351,6 +26388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6388870616153676058, guid: de22052c5863732478817812ddbc6f19,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinAmount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"speed","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpSpeed","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"},{"name":"dashSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"dashLength","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canDash","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"facingLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"procAnim","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6388870616153676071, guid: de22052c5863732478817812ddbc6f19,
         type: 3}
