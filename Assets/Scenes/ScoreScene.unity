@@ -216,7 +216,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: Keyboard
       m_Image: {fileID: 0}
-    - m_Text: Xbox
+    - m_Text: Joysticks
+      m_Image: {fileID: 0}
+    - m_Text: Dpad
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
